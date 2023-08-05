@@ -1,0 +1,20 @@
+.feed{
+    .form{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .searchInput{
+        width: 300px;
+        border: 0;
+        outline: none;
+        border: 2px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    .prompt_layout{
+        margin-top: 40px;
+    }
+}

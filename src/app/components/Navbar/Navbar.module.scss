@@ -1,0 +1,63 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+  padding-top: 5px;
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #000;
+    p {
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .post {
+      text-decoration: none;
+      color: #fff;
+      background-color: #000;
+      padding: 5px 10px;
+      border-radius: 25px;
+      font-size: 15px;
+      border: 1px solid #000;
+      &:hover {
+        color: #000;
+        background-color: #fff;
+      }
+    }
+    button {
+      border: none;
+      background-color: #fff;
+      color: #000;
+      border: 1px solid #000;
+      border-radius: 25px;
+      padding: 7px 10px;
+      cursor: pointer;
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
+    }
+    .profile {
+      border-radius: 50%;
+    }
+  }
+  .black_btn {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 7px 10px;
+  }
+}

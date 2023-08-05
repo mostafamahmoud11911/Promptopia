@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .title{
+        font-weight: 900;
+    }
+    .line{
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    .gradient{
+        background: linear-gradient(to right,  hsla(215, 98%, 61%, 1), hsla(125, 98%, 72%, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    p{
+        text-align: center;
+    }
+}
